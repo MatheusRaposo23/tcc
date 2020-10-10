@@ -1,0 +1,56 @@
+.footer {
+    background-color: #777;
+    color: #FFF;
+    margin-top: 220px;
+    padding: 10px 22px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+}
+
+.topo {
+    margin-left: 525px;
+ }
+ 
+ .primeira{
+     background: #143856;
+     height:50px;
+ }
+
+ .primeira a{
+    color: white;
+}
+ 
+.opcoes{
+     margin-left: 13em;
+}
+
+.segunda{
+    background-color: white;
+}
+
+.logo{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 124px;
+    color:#143856;
+}
+
+.opcoes2{
+    color:#143856;
+    margin-left: 220px;
+    
+}
+
+.opcoes2 a:hover, a:active{
+    text-decoration: underline;
+}
+
+@media (max-width: 460px) {
+    .footer {
+        margin-top: 0px;
+    }
+}

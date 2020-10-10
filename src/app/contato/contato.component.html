@@ -1,0 +1,28 @@
+<mat-vertical-stepper>
+    <mat-step label="Nome completo">
+        <input matInput formControlName="firstCtrl" required>
+        <div>
+            <button mat-button matStepperNext>Próximo</button>
+        </div>
+    </mat-step>
+    <mat-step label="E-mail">
+        <input matInput formControlName="firstCtrl" required>
+        <div>
+            <button mat-button matStepperPrevious>Anterior</button>
+            <button mat-button matStepperNext>Próximo</button>
+        </div>
+    </mat-step>
+    <mat-step label="Assunto">
+        <input matInput formControlName="firstCtrl" required>
+        <div>
+            <button mat-button matStepperPrevious>Anterior</button>
+            <button mat-button matStepperNext>Próximo</button>
+        </div>
+    </mat-step>
+    <mat-step label="Enviar">
+        <div>
+            <button mat-button matStepperPrevious>Anterior</button>
+            <button mat-button matStepperNext>Concluir e enviar</button>
+        </div>
+    </mat-step>
+</mat-vertical-stepper>
